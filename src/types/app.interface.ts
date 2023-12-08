@@ -5,5 +5,6 @@ export interface App {
     icon: ReactNode;
     pinned: boolean;
     exec: string;
+    isWebApp: boolean;
   }
   

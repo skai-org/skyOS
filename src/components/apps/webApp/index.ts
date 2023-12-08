@@ -1,7 +1,7 @@
 import { WebviewWindow } from "@tauri-apps/api/window";
 import { invoke } from "@tauri-apps/api";
 
- function openSpotifyWindow(url: string,title: string ){
+ function openWebWindow(url: string,title: string ){
 
 const webview = new WebviewWindow(title, {
   url: url,
@@ -20,4 +20,4 @@ webview.once("tauri://error", (e) => {
 console.log("You can do this");
 }
 
-export default openSpotifyWindow;
+export default openWebWindow;

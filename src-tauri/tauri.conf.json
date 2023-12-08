@@ -51,6 +51,7 @@
         "certificateThumbprint": null,
         "digestAlgorithm": "sha256",
         "timestampUrl": ""
+      
       }
     },
     "security": {
@@ -64,9 +65,12 @@
         "fullscreen": true,
         "height": 1920,
         
-        "title": "skyOS",
+        "title": "redacted",
         "closable": true,
-   
+        "decorations": false,
+        
+        "titleBarStyle": "Transparent",
+        "transparent": true,
         "width": 1080
       }
     ]

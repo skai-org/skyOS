@@ -1,19 +1,23 @@
 import { App } from '@/types/app.interface'
 import { ActionTooltip } from '../action-tooltip'
+// import { invoke } from '@tauri-apps/api';
+import openWebWindow from './webApp';
 import { invoke } from '@tauri-apps/api';
+// import { url } from 'inspector';
 
 
 const AppTrigger = (
     {
         icon,
         name,
-        exec
+        exec,
+        isWebApp
         // className
     }: App
 ) => {
    
   const onIconClick= () => {
-    invoke('open_window',{title: name, url: exec}) 
+    isWebApp ? openWebWindow(exec,name) : invoke('open_window',{title: name, url: exec})
   };
   return (
     <ActionTooltip label={name} side='top'>

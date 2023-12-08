@@ -23,7 +23,7 @@ export const Dock = () => {
     <AppTrigger
       name={item.name}
       icon={item.icon}
-
+      isWebApp={item.isWebApp}
       key={item.name}
       pinned={item.pinned}
       exec={item.exec}
@@ -43,6 +43,7 @@ dockItems
   .filter((item) => item.pinned !== false)
   .map((item) => (
     <AppTrigger
+    isWebApp={item.isWebApp}
       name={item.name}
       icon={item.icon}
       key={item.name}

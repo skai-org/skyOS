@@ -23,6 +23,7 @@ async fn open_window(app: AppHandle, title: String, url: String) -> Result<(), S
         .resizable(true)
         .title(&format!("{} | skaiOS", title))
         .center()
+        .decorations(false)
         .build();
 
     match result {
