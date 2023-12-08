@@ -39,6 +39,7 @@ SkyOS is actively under development, with new features and improvements being ad
 
 #### Widgets
 ![SkyOS Widgets](images/widgets.png)
+
 *Small, functional components providing real-time information.*
 
 #### Home
