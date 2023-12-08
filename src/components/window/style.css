@@ -1,0 +1,7 @@
+.spoiler span {
+    visibility: hidden;
+}
+
+.spoiler:hover span {
+    visibility: visible;
+}

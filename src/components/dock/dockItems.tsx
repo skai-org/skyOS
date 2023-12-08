@@ -14,7 +14,7 @@ import { TerminalIcon } from "lucide-react";
 export const dockItems: Array<App> = [
   { name: "Chat", icon: <ChatIcon />, pinned: false, exec: "src/apps/chat/chat.html",isWebApp: false },
   { name: "Tasks", icon: <TaskIcon />,  pinned: false,exec: "src/apps/tasks/tasks.html",isWebApp: false  },
-  { name: "Spotify", icon: <SpotifyIcon />,  pinned: false ,exec: "https://open.spotify.com",isWebApp: true },
+  { name: "Spotify", icon: <SpotifyIcon />,  pinned: false ,exec: "https://accounts.spotify.com/en-GB/login",isWebApp: true },
   { name: "Plan", icon: <BasketIcon />,pinned: false,exec: "src/apps/planner/planner.html",isWebApp: false  },
   { name: "Music", icon: <MusicIcon />, pinned: false,exec: "src/apps/music/music.html",isWebApp: false  },
   { name: "Timer", icon: <TimerIcon />,pinned: false,exec: "src/apps/timer/timer.html",isWebApp: false  },
