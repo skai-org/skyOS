@@ -1,6 +1,6 @@
 # SkyOS - React and Rust Based Desktop Environment Simulator
 
-SkyOS is an ongoing project that aims to simulate a desktop environment inspired by macOS. It is built using React and Rust technologies. This desktop environment simulator is currently in development and is expected to offer a range of features to enhance user experience.
+SkyOS is an ongoing project that aims to simulate a desktop environment inspired by macOS. It is built using React and Rust technologies. This desktop environment simulator is currently in development and is expected to offer a range of features to enhance user experience. 
 
 ## Features
 
@@ -57,12 +57,12 @@ SkyOS is actively under development, with new features and improvements being ad
 
 
 
-
+Note : This software can be seamlessly run on Linux, windows and mac!
 
 ## License
 
 SkyOS is licensed under the MIT License, granting users the freedom to use, modify, and distribute the software.
 
-Note: SkyOS is a desktop environment simulator and is not intended to replace or replicate macOS. It is an independent project inspired by the design and functionality of macOS and it not meant to run as a full-blown DE.
+Note: SkyOS is a desktop environment simulator and is not intended to replace or replicate macOS. It is an independent project inspired by the design and functionality of macOS and it is not meant to run as a full-blown DE.
 
 For more information and updates, visit the SkyOS GitHub Repository.
