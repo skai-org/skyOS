@@ -8,11 +8,11 @@ export const PomodoroWidget = () => {
  
 
   return (
-    <Draggable>
+    <Draggable bounds="parent">
 
     <div className="
     absolute 
-    top-2
+    top-10
     right-1
   
    p-6 

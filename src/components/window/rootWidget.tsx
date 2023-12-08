@@ -10,7 +10,7 @@ export const Window:React.FC = () => {
     <ThemeProvider>
     <div data-tauri-drag-region className="
     h-[30px] flex  items-center space-x-2 pl-2
-    bg-zinc-900 flex-initial fixed top-0 left-0 right-0">
+    bg-zinc-900 flex-initial fixed top-0 left-0 right-0 ">
   <button className="
   rounded-lg w-3.5 h-3.5 bg-gradient-to-r from-red-500 to-red-600 
 

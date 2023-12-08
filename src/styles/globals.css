@@ -69,6 +69,8 @@
 @layer base {
   * {
     @apply border-border;
+    margin: 0;
+    padding: 0;
   }
   body {
     @apply bg-background text-foreground;
@@ -101,4 +103,6 @@
   .titlebar-button:hover {
     background: #5bbec3;
   }
+
+
 }

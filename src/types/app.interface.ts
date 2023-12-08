@@ -6,5 +6,7 @@ export interface App {
     pinned: boolean;
     exec: string;
     isWebApp: boolean;
+    handleClick?: () => void;
+    className?: string;
   }
   

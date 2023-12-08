@@ -11,20 +11,23 @@ const AppTrigger = (
         icon,
         name,
         exec,
-        isWebApp
-        // className
+        isWebApp,
+        handleClick,
+        className
     }: App
 ) => {
    
   const onIconClick= () => {
+    
     isWebApp ? openWebWindow(exec,name) : invoke('open_window',{title: name, url: exec})
+    handleClick?.();
   };
   return (
     <ActionTooltip label={name} side='top'>
     
     <button
     onClick={onIconClick}
-    className="  transform transition-transform hover:-translate-y-3 hover:scale-110 m-1 my-2">
+    className={`m-1 my-2 ${className}`}>
         {icon}</button>
         </ActionTooltip>
   )
