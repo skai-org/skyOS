@@ -58,11 +58,3 @@ SkyOS is actively under development, with new features and improvements being ad
 
 
 Note : This software can be seamlessly run on Linux, windows and mac!
-
-## License
-
-SkyOS is licensed under the MIT License, granting users the freedom to use, modify, and distribute the software.
-
-Note: SkyOS is a desktop environment simulator and is not intended to replace or replicate macOS. It is an independent project inspired by the design and functionality of macOS and it is not meant to run as a full-blown DE.
-
-For more information and updates, visit the SkyOS GitHub Repository.
