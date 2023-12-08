@@ -23,10 +23,10 @@ export const Dock = () => {
     <AppTrigger
       name={item.name}
       icon={item.icon}
-      action={item.action}
+
       key={item.name}
-      url={item.url}
       pinned={item.pinned}
+      exec={item.exec}
     />
   ))}
 
@@ -45,10 +45,9 @@ dockItems
     <AppTrigger
       name={item.name}
       icon={item.icon}
-      action={item.action}
-      url={item.url}
       key={item.name}
       pinned={item.pinned}
+      exec={item.exec}
     />
   ))}
 

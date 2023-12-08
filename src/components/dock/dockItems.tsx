@@ -10,12 +10,12 @@ import AppLauncherIcon from "@/assets/IconPack/app-launcher";
 
 
 export const dockItems: Array<App> = [
-  { name: "Chat", icon: <ChatIcon />, action: "chat/", pinned: false },
-  { name: "Tasks", icon: <TaskIcon />, action: "tasks/", pinned: false },
-  { name: "Spotify", icon: <SpotifyIcon />, action: "spotify/", pinned: false ,url: "https://open.spotify.com"},
-  { name: "Plan", icon: <BasketIcon />, action: "planner/", pinned: false },
-  { name: "Sounds", icon: <MusicIcon />, action: "music/", pinned: false },
-  { name: "Take notes", icon: <TimerIcon />, action: "notes/", pinned: false },
-  { name: "Settings", icon: <SettingsIcon />, action: "settings/", pinned: true },
-  { name: "Launchpad", icon: <AppLauncherIcon />, action: "launcher/", pinned: true },
+  { name: "Chat", icon: <ChatIcon />, pinned: false, exec: "src/components/apps/chat/chat.html" },
+  { name: "Tasks", icon: <TaskIcon />,  pinned: false,exec: "src/components/apps/tasks/tasks.html" },
+  { name: "Spotify", icon: <SpotifyIcon />,  pinned: false ,exec: "https://open.spotify.com"},
+  { name: "Plan", icon: <BasketIcon />,pinned: false,exec: "src/components/apps/planner/planner.html" },
+  { name: "Music", icon: <MusicIcon />, pinned: false,exec: "src/components/apps/music/music.html" },
+  { name: "Notes", icon: <TimerIcon />,pinned: false,exec: "src/components/apps/timer/timer.html" },
+  { name: "Settings", icon: <SettingsIcon />, pinned: true,exec: "src/components/apps/settings/settings.html" },
+  { name: "Launchpad", icon: <AppLauncherIcon />, pinned: true, exec: "" },
 ];
