@@ -1,5 +1,5 @@
 "use client"
-import { Button } from '../../../ui/button'
+import { Button } from '../../../components/ui/button'
 import { Play, RotateCcw } from 'lucide-react'
 import Draggable from 'react-draggable';
 

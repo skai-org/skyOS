@@ -1,5 +1,5 @@
 import { App } from '@/types/app.interface'
-import { ActionTooltip } from '../action-tooltip'
+import { ActionTooltip } from '../components/action-tooltip'
 // import { invoke } from '@tauri-apps/api';
 import openWebWindow from './webApp';
 import { invoke } from '@tauri-apps/api';

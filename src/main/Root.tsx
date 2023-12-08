@@ -1,4 +1,4 @@
-import { PomodoroWidget } from "@/components/apps/timer/widgets/pomodoro";
+import { PomodoroWidget } from "@/apps/timer/widgets/pomodoro";
 import { Dock } from "@/components/dock/dock";
 import { MenubarDemo } from "@/components/topBar/menuBar";
 import {

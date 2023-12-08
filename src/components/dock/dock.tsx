@@ -2,7 +2,7 @@
 
 import { Separator } from "@/components/ui/separator";
 import { dockItems } from "./dockItems";
-import AppTrigger from "../apps/AppTrigger";
+import AppTrigger from "../../apps/AppTrigger";
 
 export const Dock = () => {
   return (
