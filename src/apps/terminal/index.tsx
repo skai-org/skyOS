@@ -8,12 +8,10 @@ const TerminalApp:React.FC = () => {
   return (
     <ThemeProvider>
       <Window />
-    <div className="flex flex-row">
-      <div className="h-screen w-[30%] bg-red-50"></div> 
-      <div className="h-screen w-full flex-col">
-
+    <div className="bg-zinc-800 h-screen overflow-y-scroll">
+      
       </div>
-    </div>
+
     </ThemeProvider>
   )
 }
