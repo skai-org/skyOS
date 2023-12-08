@@ -57,4 +57,4 @@ SkyOS is actively under development, with new features and improvements being ad
 
 
 
-Note : This software can be seamlessly run on Linux, windows and mac!
+This software can be seamlessly run on Linux, windows and mac!
