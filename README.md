@@ -31,7 +31,7 @@ SkyOS has a widget system to enhance your desktop experience. Widgets are small,
 
 # Development Status
 
-SkyOS is actively under development, with new features and improvements being added regularly. Contributions from the community are welcome, and developers are encouraged to participate in enhancing the project.
+SkyOS is actively under development, with new features and improvements being added regularly. 
 
 #### Dock
 ![SkyOS Dock](images/dock.png)
