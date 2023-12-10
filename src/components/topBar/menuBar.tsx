@@ -15,7 +15,8 @@ import {
     MenubarTrigger,
   } from "@/components/ui/menubar"
 import { Ghost } from "lucide-react";
-import ControlCentreIcon from "@/assets/IconPack/system/control-center";
+import ControlCenter from "./menuItems/ControlCenter/ControlCenter";
+import Clock from "./menuItems/Tray-clock/clock";
 
 
 
@@ -143,11 +144,8 @@ import ControlCentreIcon from "@/assets/IconPack/system/control-center";
         </MenubarMenu>
         </div>
         <div className="text-xs flex flex-row justify-end w-[15%] items-center"> 
-        <button className="mr-2" >
-          <ControlCentreIcon />
-        </button>
-        <div className="day">Wed 29 Nov</div>
-        <div className="date ml-2 mr-2">6:50 PM</div>
+        <ControlCenter />
+        <Clock />
         </div>
       </Menubar>
     )
