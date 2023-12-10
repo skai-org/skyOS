@@ -14,7 +14,8 @@ import {
     MenubarSubTrigger,
     MenubarTrigger,
   } from "@/components/ui/menubar"
-import { Ghost, ToggleRight } from "lucide-react";
+import { Ghost } from "lucide-react";
+import ControlCentreIcon from "@/assets/IconPack/system/control-center";
 
 
 
@@ -23,8 +24,9 @@ import { Ghost, ToggleRight } from "lucide-react";
    
     return (
     
-      <Menubar className="h-8 z-40 w-full fixed flex flex-row items-center justify-between
+      <Menubar className="h-6 z-40 w-full fixed flex flex-row items-center justify-between
       bg-gray-800 bg-opacity-40  bg-clip-padding backdrop-filter backdrop-blur-xl border-0
+      rounded-none
       ">
         <div className="w-full flex">
         <MenubarMenu>
@@ -53,6 +55,7 @@ import { Ghost, ToggleRight } from "lucide-react";
             </MenubarItem>
         </MenubarContent>
         </MenubarMenu>
+        <div className="text-sm  mx-2">skyOS</div>
             <MenubarMenu>
           <MenubarTrigger>File</MenubarTrigger>
           <MenubarContent>
@@ -141,7 +144,7 @@ import { Ghost, ToggleRight } from "lucide-react";
         </div>
         <div className="text-xs flex flex-row justify-end w-[15%] items-center"> 
         <button className="mr-2" >
-          <ToggleRight></ToggleRight>
+          <ControlCentreIcon />
         </button>
         <div className="day">Wed 29 Nov</div>
         <div className="date ml-2 mr-2">6:50 PM</div>
