@@ -1,0 +1,7 @@
+.pomo-text-stroke {
+    text-shadow: -1px 1px 0 #572D1C, 
+                          1px 1px 0 #572D1C, 
+                         1px -1px 0 #572D1C, 
+                        -1px -1px 0 #572D1C; 
+    
+  }
