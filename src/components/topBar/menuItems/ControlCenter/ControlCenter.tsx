@@ -7,11 +7,13 @@ const ControlCenter = () => {
   return (
     <Popover>
   <PopoverTrigger>
-  <button className="mr-2" >
+  <button className="mr-2 my-1" >
           <ControlCentreIcon />
         </button>
   </PopoverTrigger>
-  <PopoverContent className="bg-slate-900 bg-opacity-40  border-1 bg-clip-padding backdrop-filter backdrop-blur-xl">Place content for the popover here.</PopoverContent>
+  <PopoverContent className="bg-slate-900 bg-opacity-40  border-1 bg-clip-padding backdrop-filter 
+  
+  backdrop-blur-xl">Gotta add items here..</PopoverContent>
 </Popover>
 
   )

@@ -1,4 +1,3 @@
-"use client"
 import {
     Menubar,
     MenubarCheckboxItem,
@@ -14,9 +13,10 @@ import {
     MenubarSubTrigger,
     MenubarTrigger,
   } from "@/components/ui/menubar"
-import { Ghost } from "lucide-react";
+import { Ghost, } from "lucide-react";
 import ControlCenter from "./menuItems/ControlCenter/ControlCenter";
 import Clock from "./menuItems/Tray-clock/clock";
+import { SearchDialog } from "./menuItems/QuickSearch/commandDialog";
 
 
 
@@ -143,7 +143,8 @@ import Clock from "./menuItems/Tray-clock/clock";
           </MenubarContent>
         </MenubarMenu>
         </div>
-        <div className="text-xs flex flex-row justify-end w-[15%] items-center"> 
+        <div className="text-xs flex flex-row justify-end w-[20%] items-center"> 
+        <SearchDialog />
         <ControlCenter />
         <Clock />
         </div>

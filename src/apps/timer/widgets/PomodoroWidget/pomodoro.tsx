@@ -1,4 +1,3 @@
-"use client"
 import Draggable from 'react-draggable';
 import './styles/main.css';
 import Timer from './components/Timer';

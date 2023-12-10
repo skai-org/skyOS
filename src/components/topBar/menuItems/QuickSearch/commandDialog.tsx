@@ -4,6 +4,7 @@ import {
   Bot,
   Calendar,
   Home,
+  Search,
   Settings,
   User,
 } from "lucide-react"
@@ -18,9 +19,9 @@ import {
   CommandSeparator,
   CommandShortcut,
 } from "@/components/ui/command"
-import { Button } from "../ui/button"
 
-export function CommandDialogDemo() {
+
+export function SearchDialog() {
   const [open, setOpen] = React.useState(false)
 
   React.useEffect(() => {
@@ -37,13 +38,11 @@ export function CommandDialogDemo() {
 
   return (
     <>
-      <Button variant={'outline'} size={'sm'} onClick={()=>{setOpen(true)}}>
-        <div className="text-zinc-400 mr-3">Type a command .. </div> <kbd className="pointer-events-none inline-flex h-5 select-none items-center gap-1 rounded border bg-muted px-1.5 font-mono text-[10px] font-medium text-muted-foreground opacity-100">
-          <span className="text-xs">⌘</span>K
-        </kbd>
-      </Button>
+      <button onClick={()=>{setOpen(true)}}>
+        <Search size={'16'} className="mr-2 my-1"/>
+      </button>
       <CommandDialog open={open} onOpenChange={setOpen}>
-        <CommandInput placeholder="Type a command or search..." />
+        <CommandInput  placeholder="Spotlight search" />
         <CommandList>
           <CommandEmpty>No results found.</CommandEmpty>
           <CommandGroup heading="Suggestions">

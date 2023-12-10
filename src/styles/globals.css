@@ -74,7 +74,20 @@
   }
   body {
     @apply bg-background text-foreground;
+    overflow: hidden;
+    position: relative;
   }
+  .widget-dock {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 200px;
+    height: 100%;
+    background-color: #333;
+    transition: right 0.3s ease; /* Add smooth transition */
+    z-index: 999; /* Ensure it's above other elements */
+  }
+
   .dock-bg{
     border-radius: 16px;
     background: rgba(83, 83, 83, 0.25);

@@ -3,11 +3,11 @@ import { dockItems } from "./dockItems";
 import AppTrigger from "../../apps/AppTrigger";
 import { useState } from "react";
 
+
 export const Dock = () => {
   const [isClicked, setIsClicked] = useState(false);
   const handleItemClick = () => {
     setIsClicked(true);
-    // Optional chaining to handle possible undefined
   };
   const Btnclass = isClicked! ? "transform transition-transform hover:-translate-y-3 hover:scale-110" : "";
   const DockClass: string = isClicked! ? " hover:scale-110 transform transition-transform hover:-translate-y-1 translate-x-1" : "";
