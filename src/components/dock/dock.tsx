@@ -1,16 +1,12 @@
 import { Separator } from "@/components/ui/separator";
 import { dockItems } from "./dockItems";
-import AppTrigger from "../../apps/AppTrigger";
-import { useState } from "react";
-
+import AppTrigger from "./DockAppTrigger";
 
 export const Dock = () => {
-  const [isClicked, setIsClicked] = useState(false);
-  const handleItemClick = () => {
-    setIsClicked(true);
-  };
-  const Btnclass = isClicked! ? "transform transition-transform hover:-translate-y-3 hover:scale-110" : "";
-  const DockClass: string = isClicked! ? " hover:scale-110 transform transition-transform hover:-translate-y-1 translate-x-1" : "";
+
+
+  const Btnclass = "transform transition-transform hover:-translate-y-3 hover:scale-110" ;
+  const DockClass: string = " hover:scale-110 transform transition-transform hover:-translate-y-1 translate-x-1" ;
 
   return (
     
@@ -23,7 +19,6 @@ export const Dock = () => {
   .filter((item) => item.pinned == false)
   .map((item) => (
     <AppTrigger
-    handleClick={handleItemClick}
       name={item.name}
       icon={item.icon}
       isWebApp={item.isWebApp}
@@ -46,8 +41,8 @@ export const Dock = () => {
 dockItems
   .filter((item) => item.pinned !== false)
   .map((item) => (
+    <div>
     <AppTrigger
-    handleClick={handleItemClick}
     isWebApp={item.isWebApp}
       name={item.name}
       icon={item.icon}
@@ -56,6 +51,9 @@ dockItems
       exec={item.exec}
       className={"transform transition-transform hover:-translate-y-3 hover:scale-110"}
     />
+    
+     
+    </div>
   ))}
 
          
