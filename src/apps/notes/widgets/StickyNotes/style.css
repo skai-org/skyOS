@@ -1,0 +1,13 @@
+.note-body{
+    outline: 0px solid transparent;
+    overflow-wrap: break-word;
+    
+}
+
+.note-title{
+    white-space: nowrap ;
+    overflow: hidden;
+    max-width: 300px;
+    border-right:1em solid transparent;
+    text-overflow: ellipsis;
+} 
