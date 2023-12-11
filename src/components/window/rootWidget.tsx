@@ -5,6 +5,9 @@ import { appWindow } from '@tauri-apps/api/window'
 import { Maximize2, Minus, X } from 'lucide-react';
 import './style.css';
 
+
+
+
 export const Window:React.FC = () => {
   return (
     <ThemeProvider>

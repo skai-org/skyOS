@@ -1,8 +1,9 @@
 import { App } from '@/types/app.interface'
 import { ActionTooltip } from '../components/action-tooltip'
 // import { invoke } from '@tauri-apps/api';
-import openWebWindow from './webApp';
-import { invoke } from '@tauri-apps/api';
+import openWebWindow from './webApp/WebApp';
+import openAppWindow from './webApp/App';
+import { WebviewWindow } from '@tauri-apps/api/window';
 // import { url } from 'inspector';
 
 
@@ -16,12 +17,23 @@ const AppTrigger = (
         className
     }: App
 ) => {
+
+  
    
-  const onIconClick= () => {
+  const onIconClick= async () => {
+    const minStat =  await WebviewWindow.getByLabel(name)?.isVisible();
+    if(minStat === false){
+      await WebviewWindow.getByLabel(name)?.show()
+    } else{
+    isWebApp ? openWebWindow(exec, name) : openAppWindow(exec,name);
+    }
     
-    isWebApp ? openWebWindow(exec,name) : invoke('open_window',{title: name, url: exec})
     handleClick?.();
+   
   };
+
+  
+
   return (
     <ActionTooltip label={name} side='top'>
     

@@ -8,6 +8,7 @@ import TodoWidget from "@/apps/tasks/widgets/TodoWidget";
 import { useEffect, useRef, useState } from "react";
 import { WidgetDock } from "@/components/dock/WidgetDock/WidgetDock";
 import Sticky from "@/apps/notes/widgets/StickyNotes/Sticky";
+import SpotifyEmbed from "@/apps/spotify/widgets/spotify-embed";
 
 function Root() {
   const [widdockVisible, setWidDockVisible] = useState(false);
@@ -49,6 +50,7 @@ function Root() {
       <PomodoroWidget />
       <TodoWidget />
       <Sticky />
+      <SpotifyEmbed />
       {widdockVisible &&  <WidgetDock ref={dockRef}  dockVisible={widdockVisible}/>}
      
       <div className="absolute bottom-5 w-[100%] px-8">
