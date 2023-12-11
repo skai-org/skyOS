@@ -1,13 +1,14 @@
  import {configureStore} from '@reduxjs/toolkit';
 
 import { TypedUseSelectorHook, useSelector } from 'react-redux';
+import widgetReducer from './features/ui/widgetSlice';
 
 
 
 
  export const store = configureStore({
     reducer: {
-        
+      widgetReducer,
     }
  });
 
