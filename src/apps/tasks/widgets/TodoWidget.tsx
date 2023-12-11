@@ -34,23 +34,32 @@ const TodoWidget: React.FC = () => {
     absolute 
     top-20
     right-1
-  
+    
    p-2
-    rounded-2xl  h-[35] min-w-[35]
+    rounded-2xl  h-auto min-h-[100px] w-[250px]
     bg-gray-800 bg-opacity-40  bg-clip-padding backdrop-filter backdrop-blur-xl
    flex flex-col 
    ">
-    <div className="flex h-10px w-full border-b-2"> title</div>
-    <Button className="w-full" onClick={handleAddTask}>
+
+    <Button className="w-full bg-gray-800 bg-opacity-40 
+    text-white hover:bg-zinc-800 border border-dashed 
+    bg-clip-padding backdrop-filter backdrop-blur-xl border-gray-800" onClick={handleAddTask}>
       Add Task <Plus className="ml-2"/>
     </Button>
+    
+    {!showTodoBox && tasks.length==0 && (
+      <div className="w-full  flex justify-center items-center text-center mt-3">
+      All caught up 🔥
+    </div>
+    )}
     {tasks.map((task, index) => (
                 <TaskTile key={index} task={task} />
               ))}
     {showTodoBox && (
           <div className="mt-2 flex 
-          gap-1 border p-2
+          gap-1  p-2
           rounded-md
+          bg-gray-800 bg-opacity-40  bg-clip-padding backdrop-filter backdrop-blur-xl border-0
           items-center ">
             <Checkbox />
 

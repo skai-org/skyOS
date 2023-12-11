@@ -1,0 +1,8 @@
+.task-tile{
+    white-space: nowrap ;
+    overflow: hidden;
+    max-width: 300px;
+    border-right:1em solid transparent;
+    text-overflow: ellipsis;
+    outline: 0px solid transparent;
+} 
