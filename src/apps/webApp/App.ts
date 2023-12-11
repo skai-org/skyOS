@@ -7,7 +7,8 @@ const webview = new WebviewWindow(title, {
   title: title,
   width: 900, // Set your desired width
   height: 700,
-  decorations:false
+  decorations:false,
+  transparent: true,
 },);
  
 
