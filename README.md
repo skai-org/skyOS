@@ -1,44 +1,51 @@
-# SkyOS - React and Rust Based Desktop Environment Simulator
+<p align="center"><img src="https://socialify.git.ci/skai-org/skyOS/image?description=1&amp;font=Source%20Code%20Pro&amp;forks=1&amp;issues=1&amp;language=1&amp;logo=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F147092038%3Fs%3D200%26v%3D4&amp;name=1&amp;owner=1&amp;pattern=Floating%20Cogs&amp;pulls=1&amp;stargazers=1&amp;theme=Dark" alt="project-image"></p>
 
-SkyOS is an ongoing project that aims to simulate a desktop environment inspired by macOS. It is built using React and Tauri. This simulator is currently in development and is expected to offer a range of features to enhance user experience. 
+<p id="description">Sky is a hobby project built with React and Tauri that aims to simulate a desktop environment similar to macOS.<br>This simulator is currently under development 🚧👷🏻 and is expected to offer a range of features to enhance user experience.</p>
 
+<h2>Project Screenshots:</h2>
 
+<img src="images/dock.png" alt="project-screenshot" width="400" height="400/">
 
-# Development Status
+<img src="images/home.png" alt="project-screenshot" width="400" height="400/">
 
-SkyOS is currently under development. 
+<img src="images/spotify.png" alt="project-screenshot" width="400" height="400/">
 
-#### Dock
-![SkyOS Dock](images/dock.png)
-*Sleek dock for quick application access.*
+<img src="images/terminal.png" alt="project-screenshot" width="400" height="400/">
+  
+<img src="images/widgets.png" alt="project-screenshot" width="400" height="400/">
+  
+<h2>🧐Current Features</h2>
 
-#### Widgets
-![SkyOS Widgets](images/widgets.png)
+Here're some of the project's best features:
 
-*Small, functional components providing real-time information.*
+*   An app dock
+*   Draggable widgets
+*   Basic apps
+*   A functional terminal
+*   Desktop Environment Simulation:
+*   Cross-Platform Compatibility
 
-#### Home
-![SkyOS Home](images/home.png)
-![SkyOS Home2](images/home1.png)
+<h2>🛠️ Installation Steps:</h2>
 
-#### Can run web Apps!
-![Spotify web app](images/webapp.png)
-*This image shows spotify web app.*
+<p>1. Setup</p>
 
-#### Sky Apps
-![Sky apps](images/BAsicApps.png)
+```
+Make sure you have Node.js and npm as well as Rust installed.  Then run npm to install the dependencies.
+```
 
-*Straight out of the box, includes a set of productivity apps.*
+<p>2. Running</p>
 
+```
+npm run tauri dev
+```
 
-#### Functional terminal
+  
+  
+<h2>💻 Built with</h2>
 
-![Sky apps](images/terminal.png)
+Technologies used in the project:
 
-*Sky offers an inbuilt terminal developed using Xtermjs.*
-
-
-
-
-
-
+*   Rust
+*   Tauri
+*   Typescript
+*   React JS
