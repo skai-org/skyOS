@@ -1,18 +1,37 @@
-<p align="center"><img src="https://socialify.git.ci/skai-org/skyOS/image?description=1&amp;font=Source%20Code%20Pro&amp;forks=1&amp;issues=1&amp;language=1&amp;logo=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F147092038%3Fs%3D200%26v%3D4&amp;name=1&amp;owner=1&amp;pattern=Floating%20Cogs&amp;pulls=1&amp;stargazers=1&amp;theme=Dark" alt="project-image"></p>
+<br/>
+<p align="center">
+  <a href="https://github.com/skai-org/skyOS">
+    <img src="https://avatars.githubusercontent.com/u/147092038?s=200&v=4" alt="Logo" width="80" height="80">
+  </a>
 
-<p id="description">Sky is a hobby project built with React and Tauri that aims to simulate a desktop environment similar to macOS.<br>This simulator is currently under development 🚧👷🏻 and is expected to offer a range of features to enhance user experience.</p>
+  <h3 align="center">skyOS</h3>
+
+  <p align="center">
+    Sky is a productivity focused Digital Environment simulating the MacOS UI
+    <br/>
+    <br/>
+    <a href="https://github.com/skai-org/skyOS/issues">Report Bug</a>
+    .
+    <a href="https://github.com/skai-org/skyOS/issues">Request Feature</a>
+  </p>
+</p>
+
+![Downloads](https://img.shields.io/github/downloads/skai-org/skyOS/total) ![Contributors](https://img.shields.io/github/contributors/skai-org/skyOS?color=dark-green) ![Forks](https://img.shields.io/github/forks/skai-org/skyOS?style=social) ![Stargazers](https://img.shields.io/github/stars/skai-org/skyOS?style=social) ![Issues](https://img.shields.io/github/issues/skai-org/skyOS) ![License](https://img.shields.io/github/license/skai-org/skyOS) 
+
+
+<p id="description">This is a hobby project built with React and Tauri that aims to simulate a desktop environment similar to macOS.<br>This simulator is currently under development 🚧👷🏻 and is expected to offer a range of features to enhance user experience.</p>
 
 <h2>Project Screenshots:</h2>
 
-<img src="images/dock.png" alt="project-screenshot" width="400" height="400/">
+<img src="images/dock.png" alt="project-screenshot" >
 
-<img src="images/home.png" alt="project-screenshot" width="400" height="400/">
+<img src="images/home.png" alt="project-screenshot" >
 
-<img src="images/spotify.png" alt="project-screenshot" width="400" height="400/">
+<img src="images/spotify.png" alt="project-screenshot" >
 
-<img src="images/terminal.png" alt="project-screenshot" width="400" height="400/">
+<img src="images/terminal.png" alt="project-screenshot" >
   
-<img src="images/widgets.png" alt="project-screenshot" width="400" height="400/">
+<img src="images/widgets.png" alt="project-screenshot" >
   
 <h2>🧐Current Features</h2>
 
