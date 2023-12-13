@@ -6,7 +6,7 @@ SkyOS is an ongoing project that aims to simulate a desktop environment inspired
 
 # Development Status
 
-SkyOS is actively under development, with new features and improvements being added regularly. 
+SkyOS is currently under development. 
 
 #### Dock
 ![SkyOS Dock](images/dock.png)
@@ -33,13 +33,12 @@ SkyOS is actively under development, with new features and improvements being ad
 
 #### Functional terminal
 
-![Sky apps](images/BAsicApps.png)
+![Sky apps](images/terminal.png)
 
-*Sky offers an inbuilt terminal , developed using Xtermjs which is the same library used for developing  vscode terminal.*
-
-
+*Sky offers an inbuilt terminal developed using Xtermjs.*
 
 
 
 
-This software can be seamlessly run on Linux, windows and mac!
+
+
