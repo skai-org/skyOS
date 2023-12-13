@@ -11,7 +11,7 @@ import {
 } from "react-router-dom";
 
 import TimerApp from '@/apps/timer'
-import Terminal from '@/apps/terminal'
+import XTerm from './apps/terminal/terminal'
 import { RootApp } from './routes/AppRoot/Window'
 
 
@@ -31,7 +31,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/app/terminal",
-        element:<Terminal />
+        element:<XTerm  />
       },
      
     ]

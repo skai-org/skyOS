@@ -38,6 +38,7 @@ async function readFromPty(term: Terminal) {
     const data = await invoke<string>("async_read_from_pty");
   
     if (data) {
+        console.log(data)
       await writeToTerminal(data, term);
     }
   

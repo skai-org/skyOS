@@ -12,9 +12,9 @@ import { Outlet } from 'react-router-dom';
 export const RootApp:React.FC = () => {
   return (
     <ThemeProvider>
-        <div className='rounded-tl-xl rounded-tr-xl  '>
+        <div className='w-screen h-screen  bg-zinc-800'>
     <div data-tauri-drag-region className="
-    h-[30px] flex  items-center space-x-2 pl-2 
+    h-[30px] flex  items-center space-x-2 pl-2  rounded-tr-lg rounded-tl-lg bg-zinc-800
    flex-initial fixed top-0 left-0 right-0 ">
   <button className="
   rounded-lg w-3.5 h-3.5 bg-gradient-to-r from-red-500 to-red-600 border 
@@ -45,7 +45,9 @@ export const RootApp:React.FC = () => {
   </button>
  
 </div>
+<div className='mt-[30px]'>
 <Outlet />
+</div>
 </div>
 
     </ThemeProvider>
