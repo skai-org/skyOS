@@ -1,4 +1,4 @@
-import React, { forwardRef } from 'react';
+import { forwardRef } from 'react';
 import { widDockItems } from './widDockItems';
 import WidgetTrigger from './WidgetTrigger';
 import { Separator } from '@/components/ui/separator';

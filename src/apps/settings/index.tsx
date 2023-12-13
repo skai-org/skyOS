@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import '@/styles/globals.css'
 import { ThemeProvider } from '@/components/providers/theme-provider';
-import { Window } from '@/components/window/rootWidget';
+import { Window } from '@/components/window/Window';
 
 const SettingsApp:React.FC = () => {
   return (

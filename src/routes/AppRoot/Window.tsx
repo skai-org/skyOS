@@ -3,17 +3,19 @@ import '@/styles/globals.css'
 import { ThemeProvider } from '@/components/providers/theme-provider';
 import { appWindow } from '@tauri-apps/api/window'
 import { Maximize2, Minus, X } from 'lucide-react';
-import './style.css';
+import './styles/style.css';
+import { Outlet } from 'react-router-dom';
 
 
 
 
-export const Window:React.FC = () => {
+export const RootApp:React.FC = () => {
   return (
     <ThemeProvider>
+        <div className='rounded-tl-xl rounded-tr-xl  '>
     <div data-tauri-drag-region className="
-    h-[30px] flex  items-center space-x-2 pl-2 rounded-tl-xl rounded-tr-xl
-    bg-transparent flex-initial fixed top-0 left-0 right-0 ">
+    h-[30px] flex  items-center space-x-2 pl-2 
+   flex-initial fixed top-0 left-0 right-0 ">
   <button className="
   rounded-lg w-3.5 h-3.5 bg-gradient-to-r from-red-500 to-red-600 border 
 
@@ -42,6 +44,8 @@ export const Window:React.FC = () => {
 
   </button>
  
+</div>
+<Outlet />
 </div>
 
     </ThemeProvider>

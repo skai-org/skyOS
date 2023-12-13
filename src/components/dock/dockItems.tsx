@@ -12,14 +12,14 @@ import { TerminalIcon } from "lucide-react";
 
 
 export const dockItems: Array<App> = [
-  { name: "Chat", icon: <ChatIcon />, pinned: false, exec: "src/apps/chat/chat.html",isWebApp: false },
+  { name: "Chat", icon: <ChatIcon />, pinned: false, exec: "/app/chat",isWebApp: false },
   { name: "Tasks", icon: <TaskIcon />,  pinned: false,exec: "src/apps/tasks/tasks.html",isWebApp: false  },
   { name: "Spotify", icon: <SpotifyIcon />,  pinned: false ,exec: "https://accounts.spotify.com/en-GB/login",isWebApp: true },
   { name: "Plan", icon: <BasketIcon />,pinned: false,exec: "src/apps/planner/planner.html",isWebApp: false  },
   { name: "Music", icon: <MusicIcon />, pinned: false,exec: "src/apps/music/music.html",isWebApp: false  },
-  { name: "Timer", icon: <TimerIcon />,pinned: false,exec: "src/apps/timer/timer.html",isWebApp: false  },
+  { name: "Timer", icon: <TimerIcon />,pinned: false,exec: "/app/timer",isWebApp: false  },
   { name: "Settings", icon: <SettingsIcon />, pinned: true,exec: "src/apps/settings/settings.html",isWebApp: false  },
   { name: "Launchpad", icon: <AppLauncherIcon />, pinned: true, exec: "",isWebApp: false  },
   { name: "SoftwareCenter", icon: <SoftwareCenterIcon/>, pinned: false, exec: "src/apps/software-center/store.html",isWebApp: false  },
-  { name: "Terminal", icon: <TerminalIcon/>, pinned: true, exec: "src/apps/terminal/terminal.html",isWebApp: false  },
+  { name: "Terminal", icon: <TerminalIcon/>, pinned: true, exec: "/app/terminal",isWebApp: false  },
 ];

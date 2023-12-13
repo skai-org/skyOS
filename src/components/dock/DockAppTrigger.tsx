@@ -1,8 +1,8 @@
 import { App } from '@/types/app.interface'
 import { ActionTooltip } from '../action-tooltip'
 // import { invoke } from '@tauri-apps/api';
-import openWebWindow from '../../apps/webApp/WebApp';
-import openAppWindow from '../../apps/webApp/App';
+import openAppWindow from '@/apps/webApp/App';
+import openWebWindow from '@/apps/webApp/WebApp';
 import { WebviewWindow } from '@tauri-apps/api/window';
 import { useState } from 'react';
 // import { url } from 'inspector';

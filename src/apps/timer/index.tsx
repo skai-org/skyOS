@@ -1,8 +1,6 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import '@/styles/globals.css'
 import { ThemeProvider } from '@/components/providers/theme-provider';
-import { Window } from '@/components/window/rootWidget';
 import { Button } from '@/components/ui/button';
 import { BarChartBig, BellRing, ChevronLeftIcon, ChevronRightIcon, RotateCcw, Settings} from 'lucide-react';
 
@@ -10,8 +8,9 @@ import { BarChartBig, BellRing, ChevronLeftIcon, ChevronRightIcon, RotateCcw, Se
 const TimerApp:React.FC = () => {
   return (
     <ThemeProvider>
-      <Window />
-    <div className="flex   flex-col border rounded-tr-2xl rounded-br-2xl rounded-bl-2xl rounded-tl-2xl p-1 bg-[#BA4949]">
+    <div className="flex  
+    h-screen
+     flex-col border rounded-tr-2xl rounded-br-2xl rounded-bl-2xl rounded-tl-2xl p-1 bg-[#BA4949]">
     <div className="absolute right-0 flex-row  justify-end gap-3 mt-[30px] mr-8 w-min flex">
         <button><BarChartBig /></button>
         <button><BellRing /></button>
@@ -45,4 +44,4 @@ const TimerApp:React.FC = () => {
   )
 }
 
-ReactDOM.render(<TimerApp/>, document.getElementById('root'))
+export default TimerApp;

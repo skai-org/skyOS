@@ -1,19 +1,12 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import '@/styles/globals.css'
-import { ThemeProvider } from '@/components/providers/theme-provider';
-import { Window } from '@/components/window/rootWidget';
+import React from 'react'
+import XTerm from './terminal';
 
-const TerminalApp:React.FC = () => {
+const Terminal = () => {
   return (
-    <ThemeProvider>
-      <Window />
-    <div className="bg-zinc-800 h-screen overflow-y-scroll">
-      
-      </div>
-
-    </ThemeProvider>
+    <div className='bg-slate-800 pt-10 rounded-t-xl border-0'>
+        <XTerm />
+    </div>
   )
 }
 
-ReactDOM.render(<TerminalApp/>, document.getElementById('root'))
+export default Terminal;

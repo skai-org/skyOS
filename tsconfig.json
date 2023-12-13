@@ -26,6 +26,6 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src", "src/apps"],
+  "include": ["src", "src/routes/apps", "dist/assets/index-T7g1QiHA.js"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
