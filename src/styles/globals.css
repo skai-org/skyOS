@@ -76,6 +76,11 @@
     @apply bg-background text-foreground;
     overflow: hidden;
     position: relative;
+    body {
+      background: transparent;
+      border: none;
+
+    }
   }
   .widget-dock {
     position: fixed;

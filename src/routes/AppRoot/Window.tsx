@@ -12,7 +12,7 @@ import { Outlet } from 'react-router-dom';
 export const RootApp:React.FC = () => {
   return (
     <ThemeProvider>
-        <div className='w-screen h-screen  bg-zinc-800'>
+        <div className='w-screen h-screen  bg-black rounded-br-2 rounded-bl-2'>
     <div data-tauri-drag-region className="
     h-[30px] flex  items-center space-x-2 pl-2  rounded-tr-lg rounded-tl-lg bg-zinc-800
    flex-initial fixed top-0 left-0 right-0 ">

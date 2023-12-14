@@ -13,6 +13,7 @@ import {
 import TimerApp from '@/apps/timer'
 import XTerm from './apps/terminal/terminal'
 import { RootApp } from './routes/AppRoot/Window'
+import Chat from './apps/Chat/Chat'
 
 
 const router = createBrowserRouter([
@@ -33,6 +34,10 @@ const router = createBrowserRouter([
         path: "/app/terminal",
         element:<XTerm  />
       },
+      {
+        path: "/app/chat",
+        element:<Chat />
+      }
      
     ]
   

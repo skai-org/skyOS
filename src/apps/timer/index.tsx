@@ -9,7 +9,7 @@ const TimerApp:React.FC = () => {
   return (
     <ThemeProvider>
     <div className="flex  
-    h-screen
+    h-screen 
      flex-col  p-1 bg-[#BA4949]">
     <div className="absolute right-0 flex-row  justify-end gap-3 mt-[30px] mr-8 w-min flex">
         <button><BarChartBig /></button>
